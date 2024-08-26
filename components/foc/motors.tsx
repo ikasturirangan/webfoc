@@ -85,7 +85,7 @@ export const Motors = () => {
             <Loader2Icon className="animate-spin" />
           </div>
           <h4 className="text-gray-600 font-semibold">Waiting for motors list from controller...</h4>
-          <p className="text-gray-600 font-semibold">Make sure to use "machine_readable" verbose mode</p>
+          <p className="text-gray-600 font-semibold">Make sure to use machine_readable verbose mode</p>
         </div>
       )}
       {Object.keys(motors).length === 0 && renderMotorControls("default", "Motor")}
